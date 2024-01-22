@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: aquamarine;
+    background-image: url(./image/pexels-kyle-roxas-2138922.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+   
+}
+.res{
+   max-width: 390px ; 
+   padding: 0 20px;
+    margin: 170px auto;
+}
+
+.loginbox{
+    height: 450px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    border-radius: 20px;
+    backdrop-filter:blur(25px);
+    box-shadow: 0px 25px 40px rgba(62, 59, 59, 0.748);
+   
+}
+
+.loginbox .logintext{
+    position: relative;  
+    height: 25%;
+    width: 100%;
+    color: #fff;
+    font-size: 1.25rem;
+    text-shadow: 10px white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6) ;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgba(190, 5, 236, 0.884);
+    backdrop-filter: blur(45px);
+}
+a{
+    text-decoration: none;
+}
+.loginui{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+   
+}
+.loginui .login{
+    height: 250px;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+
+.email{
+
+    width: 90%;
+    height: 50px;
+    
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.29) ;
+    background-color: #ffffff;
+}
+.email .emaillogo{
+    height: 100%;
+    width: 15%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c72ff5dd;
+
+}
+
+.email i{
+    
+    font-size: 1.55rem;
+}
+.email input{
+    height: 100%;
+    width: 85%;
+    padding-left: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid transparent;
+
+}
+
+.password{
+
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    justify-content: space-between;
+    background-color: #fff;
+    
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.44) ;
+
+}
+.password .passwordlogo {height: 100%;
+    width: 15%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c72ff5dd;
+
+}
+
+
+.password .i{
+    font-size: 1.55rem;
+
+}
+
+
+
+.password input{
+    height: 100%;
+    width: 85%;
+    padding-left: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid transparent;
+
+}
+
+.password input:focus{
+   
+    box-shadow: inset 0px 0px 3px 3px rgba(190, 5, 236, 0.884) ;
+}
+
+.submit{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+}
+.submit input{
+    height: 100%;
+    width: 60%;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 1.45rem;
+    background-color: #c72ff5dd;
+}
+.submit input:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    background-color: #e83aff;
+
+}
+.submit input:focus{
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    background-color: #c105c1;
+
+}
+
+.forgot{
+    margin-left: 140px;
+}
+
+.forgot a{
+    color: #ffffff;
+  }
+ 
+  .forgot a:hover{
+    text-decoration: underline;
+    color: #ffffff;
+  }
+
+.Singupops{
+   color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.Singupops p a{
+    color: aqua;
+}
+.Singupops p a:hover{
+    text-decoration:underline;
+    color: aqua;
+}
